@@ -30,7 +30,6 @@ class MainActivity : AppCompatActivity() {
     private fun setNewText(input: String){
         val newText = text.text.toString() + "\n$input"
         text.text = newText
-
     }
 
     private suspend fun setTextOnMainThread(input: String){
